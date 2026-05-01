@@ -4,13 +4,15 @@
 // All other photos go in frontend/public/photos/
 // ─────────────────────────────────────────────────────────────────────────────
 
+const base = import.meta.env.BASE_URL
+
 export const sectionPhotos: Record<string, string> = {
-  hero:         '/bharat_soni.jpg',         // already in place
-  bio:          '/photos/about.jpg',         // personal / candid photo
-  academic:     '/photos/education.jpg',     // campus, graduation, or studying
-  experience:   '/photos/experience.jpg',    // professional setting — KPMG era
-  competitions: '/photos/competitions.jpg',  // event, presentation, or team photo
-  leadership:   '/photos/leadership.jpg',    // speaking or group event
-  projects:     '/photos/projects.jpg',      // working at desk or tech-focused
-  contact:      '/photos/contact.jpg',       // your choice — outdoor works well
+  hero:         `${base}bharat_soni.jpg`,         // already in place
+  bio:          `${base}photos/about.jpg`,         // personal / candid photo
+  academic:     `${base}photos/education.jpg`,     // campus, graduation, or studying
+  experience:   `${base}photos/experience.jpg`,    // professional setting — KPMG era
+  competitions: `${base}photos/competitions.jpg`,  // event, presentation, or team photo
+  leadership:   `${base}photos/leadership.jpg`,    // speaking or group event
+  projects:     `${base}photos/projects.jpg`,      // working at desk or tech-focused
+  contact:      `${base}photos/contact.jpg`,       // your choice — outdoor works well
 }
