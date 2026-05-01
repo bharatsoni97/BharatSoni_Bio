@@ -7,7 +7,6 @@ import { ProfessionalExperience } from '@/components/Landing/ProfessionalExperie
 import { CaseCompetitions } from '@/components/Landing/CaseCompetitions'
 import { Leadership } from '@/components/Landing/Leadership'
 import { Projects } from '@/components/Landing/Projects'
-import { Contact } from '@/components/Landing/Contact'
 import { Hobbies } from '@/components/Landing/Hobbies'
 
 export function LandingPage() {
@@ -20,7 +19,6 @@ export function LandingPage() {
       <CaseCompetitions competitions={profile.competitions} />
       <Leadership leadership={profile.leadership} />
       <Projects projects={profile.projects} />
-      <Contact contact={profile.contact} />
       <Hobbies hobbies={profile.hobbies} />
     </Layout>
   )
