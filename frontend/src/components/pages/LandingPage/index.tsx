@@ -8,6 +8,7 @@ import { CaseCompetitions } from '@/components/Landing/CaseCompetitions'
 import { Leadership } from '@/components/Landing/Leadership'
 import { Projects } from '@/components/Landing/Projects'
 import { Contact } from '@/components/Landing/Contact'
+import { Hobbies } from '@/components/Landing/Hobbies'
 
 export function LandingPage() {
   return (
@@ -20,6 +21,7 @@ export function LandingPage() {
       <Leadership leadership={profile.leadership} />
       <Projects projects={profile.projects} />
       <Contact contact={profile.contact} />
+      <Hobbies hobbies={profile.hobbies} />
     </Layout>
   )
 }

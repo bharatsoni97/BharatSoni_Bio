@@ -10,6 +10,7 @@ const navLinks = [
   { label: 'Leadership', href: '#leadership', section: 'leadership' },
   { label: 'Projects', href: '#projects', section: 'projects' },
   { label: 'Contact', href: '#contact', section: 'contact' },
+  { label: 'Hobbies', href: '#hobbies', section: 'hobbies' },
 ]
 
 interface Props {

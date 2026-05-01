@@ -47,6 +47,12 @@ export interface ProjectEntry {
   externalUrl?: string
 }
 
+export interface HobbyEntry {
+  emoji: string
+  name: string
+  tagline: string
+}
+
 export interface ContactInfo {
   email: string
   linkedin: string
@@ -69,4 +75,5 @@ export interface Profile {
   leadership: LeadershipEntry[]
   projects: ProjectEntry[]
   contact: ContactInfo
+  hobbies: HobbyEntry[]
 }
