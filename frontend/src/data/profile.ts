@@ -83,6 +83,15 @@ I hold three degrees from Schulich and York University, including an accelerated
         'Published risk methodology for AI products; led business development contributing $2.5M in new annual revenue.',
       ],
     },
+      {
+      company: 'KPMG LLP',
+      role: ' Consultant, Risk Advisory',
+      years: '2021 – 2023',
+      location: 'Toronto, ON',
+      bullets: [
+        'Advised clients across diversiefied industries on risk and change mangement starategies, design, and implementation, to ensure completeness and accuracy of financial, operational, and regulatory reporting.',
+      ],
+    },
     {
       company: 'Ontario Public Service — Ministry of Children, Community & Social Services',
       role: 'Analyst, Operational Finance Branch',

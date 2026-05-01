@@ -11,7 +11,7 @@ export const sectionPhotos: Record<string, string> = {
   experience:   `${base}experience.jpg`,
   competitions: `${base}competitions.jpg`,
   leadership:   `${base}leadership.jpg`,
-  projects:     `${base}projects.png`,
+  projects:     `${base}projects.jpg`,
   contact:      `${base}contact.jpg`,
   hobbies:      `${base}hobbies.jpg`,
 }
