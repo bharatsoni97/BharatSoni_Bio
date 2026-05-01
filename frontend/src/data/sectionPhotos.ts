@@ -15,4 +15,5 @@ export const sectionPhotos: Record<string, string> = {
   leadership:   `${base}photos/leadership.jpg`,    // speaking or group event
   projects:     `${base}photos/projects.jpg`,      // working at desk or tech-focused
   contact:      `${base}photos/contact.jpg`,       // your choice — outdoor works well
+  hobbies:      `${base}photos/hobbies.jpg`,       // miata, dog, gym, badminton — your pick
 }

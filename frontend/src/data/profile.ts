@@ -159,4 +159,11 @@ I hold three degrees from Schulich and York University, including an accelerated
     inquiryPrompt:
       'Open to advisory engagements, quantitative research collaborations, and speaking opportunities.',
   },
+
+  hobbies: [
+    { emoji: '🚗', name: 'Miata', tagline: 'Weekend drives, manual shifts, pure driving joy.' },
+    { emoji: '🐕', name: 'My Dog', tagline: 'Best co-pilot and reason to go outside.' },
+    { emoji: '🏋️', name: 'Gym', tagline: 'Early mornings, heavy lifts, clear head.' },
+    { emoji: '🏸', name: 'Badminton', tagline: 'Fast-paced, competitive, great stress relief.' },
+  ],
 }
