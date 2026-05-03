@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { LandingPage } from '@/components/pages/LandingPage'
 import { WorkPage } from '@/components/pages/WorkPage'
 import { WritingPage } from '@/components/pages/WritingPage'
-import { ArticlePage } from '@/components/pages/ArticlePage'
 
 function AppStub() {
   return (
@@ -23,7 +22,6 @@ export function App() {
         <Route path="/app" element={<AppStub />} />
         <Route path="/work" element={<WorkPage />} />
         <Route path="/writing" element={<WritingPage />} />
-        <Route path="/writing/:slug" element={<ArticlePage />} />
       </Routes>
     </BrowserRouter>
   )
