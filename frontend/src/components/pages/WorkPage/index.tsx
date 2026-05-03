@@ -12,7 +12,7 @@ export function WorkPage() {
             <h1 className="text-3xl font-semibold text-white mb-2">Project Book</h1>
             <p className="text-white/50 text-sm mb-12 max-w-xl leading-relaxed">
               A selection of client engagements across sectors. Client names are anonymized in keeping with
-              confidentiality obligations.
+              confidentiality obligations. For further information on specific projects, please contact me directly.
             </p>
             <div className="space-y-6">
               {sorted.map((eng, i) => (

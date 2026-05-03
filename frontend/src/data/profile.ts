@@ -197,7 +197,7 @@ I hold three degrees from Schulich and York University, including an accelerated
       id: 'kpmg-advisory',
       sector: 'IT Assurance & Strategy',
       client: 'KPMG LLP — Client Advisory',
-      scope: 'Client Advisory — IT Assurance & Strategy (~5 years · Senior Consultant → Consultant)',
+      scope: 'Client Advisory — IT Assurance & Strategy',
       outcomes: [
         'Led SOX/ICOFR IT assessments and SOC 1/SOC 2 attestations across 15+ engagements spanning a national stock exchange operator, a pension investment board, Canadian chartered banks, a national telecom provider, a healthcare & benefits administration platform, and FinTech payments companies.',
         'Served as client lead and senior in-charge across engagements with a B2B SaaS platform, a global gold mining company, a regulated municipal utility, and a national employee health, benefits, and pension administration platform — overseeing scoping, budgeting, team management, and Audit Committee reporting.',
@@ -212,7 +212,7 @@ I hold three degrees from Schulich and York University, including an accelerated
       id: 'kpmg-practice',
       sector: 'Risk Services',
       client: 'KPMG LLP — Internal Practice',
-      scope: 'Practice Development — Risk Methodology & AI Governance (~5 years · Senior Consultant)',
+      scope: 'Practice Development — Risk Methodology & AI Governance',
       outcomes: [
         'Collaborated on the modernization of internal risk management methodology frameworks to improve consistency, efficiency, and quality across the Risk Services practice.',
         'Developed new assurance product offerings for AI systems, defining assessment criteria and testing procedures for emerging technology governance based on surveys with industry partners, clients, and subject matter experts.',
@@ -224,7 +224,7 @@ I hold three degrees from Schulich and York University, including an accelerated
       id: 'ontario-ministry',
       sector: 'Public Sector',
       client: 'Ontario Government Ministry — Deputy Minister\'s Office',
-      scope: 'Financial & Business Advisory (Financial & Business Analyst)',
+      scope: 'Financial & Business Advisory (Operational Finance Branch)',
       outcomes: [
         'Built Tableau, PowerBI, and ARC GIS dashboards supporting $2.3B in operational reporting, used directly in Deputy Minister and Minister briefings.',
         'Designed the data framework and executed a 10% budget reduction across a developmental disabilities portfolio, consolidating 250+ transfer payment agencies.',
@@ -233,7 +233,7 @@ I hold three degrees from Schulich and York University, including an accelerated
         'Managed program integration for a social services division, rerouting transfer payments, IT systems, and coordinating Finance, HR, and operational staff.',
         'Led financial and operational requirements for a ministry-wide data platform migration from Cognos to Azure, coordinating across Treasury Board Secretariat and external consulting teams.',
       ],
-      tags: ['Tableau', 'PowerBI', 'ARC GIS', 'Azure', 'Public Finance', 'Policy', 'Budget Management'],
+      tags: ['Tableau', 'PowerBI', 'ARC GIS', 'Azure', 'Public Finance', 'Policy', 'Operational Reporting', 'Controller'],
       year: '2018 – 2020',
     },
     {
@@ -265,7 +265,7 @@ I hold three degrees from Schulich and York University, including an accelerated
       id: 'mba-capstone',
       sector: 'Strategy Consulting',
       client: 'Craft Beverage Industry',
-      scope: 'Market Strategy — MBA Capstone Project (Masters of Management)',
+      scope: 'Market Strategy — MBA Capstone Project (Master of Management)',
       outcomes: [
         'Diagnosed slumping sales for a regional craft brewery despite market-wide growth through primary survey research and competitive analysis using data from the provincial craft brewers association and liquor board.',
         'Identified weak branding and limited product selection as root causes; designed new branding materials and a product line recommendation aligned with local market preferences.',
