@@ -53,6 +53,31 @@ export interface HobbyEntry {
   tagline: string
 }
 
+export interface EngagementEntry {
+  sector: string
+  client: string
+  scope: string
+  outcomes: string[]
+  tags: string[]
+  year: string
+}
+
+export interface Article {
+  slug: string
+  title: string
+  date: string
+  excerpt: string
+  body: string[]
+  tags: string[]
+  featured: boolean
+}
+
+export interface Goals {
+  headline: string
+  body: string
+  focus: string[]
+}
+
 export interface ContactInfo {
   email: string
   linkedin: string
@@ -76,4 +101,7 @@ export interface Profile {
   projects: ProjectEntry[]
   contact: ContactInfo
   hobbies: HobbyEntry[]
+  engagements: EngagementEntry[]
+  articles: Article[]
+  goals: Goals
 }

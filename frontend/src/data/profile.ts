@@ -175,4 +175,95 @@ I hold three degrees from Schulich and York University, including an accelerated
     { emoji: '🏋️', name: 'Gym', tagline: 'Early mornings, heavy lifts, cardio, clear head.' },
     { emoji: '🏸', name: 'Badminton', tagline: 'Fast-paced, competitive, great stress relief.' },
   ],
+
+  goals: {
+    headline: 'Building at the intersection of economics and technology.',
+    body: `After five years advising organizations across government and consulting on economic risk and strategy, I'm now focused on scaling that practice through technology. Econometrics.AI is the infrastructure layer — making quantitative economic analysis accessible outside traditional advisory engagements. Alongside that, I'm deepening my advisory practice, expanding into speaking and thought leadership, and completing my MBA.`,
+    focus: [
+      'Building Econometrics.AI — from MVP to a production advisory tool',
+      'Growing an independent economic advisory practice',
+      'Publishing economic analysis and market commentary',
+      'Completing the Schulich MBA in Finance & Strategic Management',
+    ],
+  },
+
+  engagements: [
+    {
+      sector: 'Financial Services',
+      client: 'Major Canadian Bank',
+      scope: 'M&A integration risk assessment across a $2.3B transaction',
+      outcomes: [
+        'Quantified technology and governance synergies across merged entities',
+        'Delivered strategic recommendations adopted by the executive steering committee',
+        'Identified risk-adjusted integration opportunities across combined operations',
+      ],
+      tags: ['M&A', 'Risk Assessment', 'Financial Modeling', 'Governance'],
+      year: '2024',
+    },
+    {
+      sector: 'Energy & Utilities',
+      client: 'Canadian Crown Corporation',
+      scope: 'Operational risk framework design and economic scenario modeling',
+      outcomes: [
+        'Built econometric scenario models for commodity price and rate sensitivity',
+        'Redesigned risk appetite framework aligned to regulatory requirements',
+        'Enabled $200M revenue validation through quantitative modeling in Alteryx',
+      ],
+      tags: ['Econometrics', 'Risk Framework', 'Scenario Modeling', 'Alteryx'],
+      year: '2023',
+    },
+    {
+      sector: 'Mining & Resources',
+      client: 'National Resources Firm',
+      scope: 'AI product risk methodology and business development strategy',
+      outcomes: [
+        'Published enterprise risk methodology for AI-enabled products',
+        'Supported business development contributing $2.5M in new annual revenue',
+        'Designed governance frameworks for model risk and AI accountability',
+      ],
+      tags: ['AI Risk', 'Governance', 'Business Development', 'Risk Methodology'],
+      year: '2024',
+    },
+    {
+      sector: 'Public Sector',
+      client: 'Ontario Provincial Ministry',
+      scope: 'Business intelligence transformation supporting a $2.6B program budget',
+      outcomes: [
+        'Designed BI tools across 256 agencies enabling $250M in consolidation savings',
+        'Led cloud migration enabling $50M in automated annual transfer payments',
+        'Conducted Commonwealth jurisdictional scan commissioned by the Deputy Minister',
+      ],
+      tags: ['Business Intelligence', 'Azure', 'Public Finance', 'Policy'],
+      year: '2019',
+    },
+  ],
+
+  articles: [
+    {
+      slug: 'why-economics-belongs-in-the-boardroom',
+      title: 'Why Economics Belongs in the Boardroom',
+      date: '2025-03-01',
+      excerpt: 'Most organizations treat economics as a background condition — something that happens to them. The ones that win treat it as a strategic input.',
+      body: [
+        'Most organizations treat economics as a background condition — interest rates change, inflation moves, commodity prices shift, and the business responds. The ones that consistently outperform their peers do something different: they treat economic conditions as a strategic input, not an exogenous shock.',
+        'The distinction matters more than it sounds. When economics is a background condition, strategy is reactive. When it\'s a strategic input, decisions about capital allocation, market entry, pricing, and workforce are made with a forward-looking economic thesis — one that can be tested, updated, and stress-tested against scenarios.',
+        'This is not a new idea. It\'s what the best macro hedge funds have always done. What\'s changed is that the data and tooling to do this kind of analysis are no longer exclusive to firms with large research departments. The opportunity, for advisory practices and businesses willing to build the capability, is significant.',
+      ],
+      tags: ['Strategy', 'Economics', 'Advisory'],
+      featured: true,
+    },
+    {
+      slug: 'the-case-for-quantitative-advisory',
+      title: 'The Case for Quantitative Advisory',
+      date: '2025-01-15',
+      excerpt: 'Qualitative frameworks are necessary but insufficient. Here\'s why the next generation of advisory work will be model-driven.',
+      body: [
+        'Advisory work has always relied on frameworks — Porter\'s Five Forces, the BCG Matrix, McKinsey\'s 7-S. These tools are useful. They structure thinking, create shared language, and provide a repeatable process for analyzing complex situations.',
+        'But frameworks alone can\'t answer the questions that matter most today. When a CFO asks "what happens to our revenue if inflation stays elevated for 18 months?" or "how does a 150bps rate move affect our cost of capital?" — the answer requires a model, not a matrix.',
+        'Quantitative advisory isn\'t about replacing judgment with algorithms. It\'s about giving judgment a stronger foundation. The firms and practitioners that develop this capability — the ability to move between qualitative strategy and quantitative modeling — will define the next generation of high-value advisory work.',
+      ],
+      tags: ['Advisory', 'Quantitative Methods', 'Economics'],
+      featured: true,
+    },
+  ],
 }
