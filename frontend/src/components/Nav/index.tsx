@@ -12,6 +12,7 @@ const anchorLinks = [
 const routeLinks = [
   { label: 'Work',    href: '/work' },
   { label: 'Writing', href: '/writing' },
+  { label: 'Gallery', href: '/gallery' },
 ]
 
 interface Props {
