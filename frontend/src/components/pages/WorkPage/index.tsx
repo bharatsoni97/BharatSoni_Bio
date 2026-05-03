@@ -5,7 +5,7 @@ export function WorkPage() {
   const sorted = [...profile.engagements].sort((a, b) => Number(b.year) - Number(a.year))
 
   return (
-    <Layout>
+    <Layout fixedSection="work">
       <div className="min-h-screen pt-32 pb-24 px-6">
         <div className="max-w-4xl mx-auto">
           <div className="backdrop-blur-md bg-black/40 border border-white/10 rounded-2xl p-8 md:p-12">

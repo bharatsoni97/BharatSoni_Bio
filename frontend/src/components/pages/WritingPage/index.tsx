@@ -10,7 +10,7 @@ export function WritingPage() {
   const sorted = [...profile.articles].sort((a, b) => b.date.localeCompare(a.date))
 
   return (
-    <Layout>
+    <Layout fixedSection="writing">
       <div className="min-h-screen pt-32 pb-24 px-6">
         <div className="max-w-4xl mx-auto">
           <div className="backdrop-blur-md bg-black/40 border border-white/10 rounded-2xl p-8 md:p-12">

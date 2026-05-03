@@ -7,14 +7,16 @@ import { profile } from '@/data/profile'
 
 interface Props {
   children: React.ReactNode
+  fixedSection?: string
 }
 
-export function Layout({ children }: Props) {
+export function Layout({ children, fixedSection }: Props) {
   const activeSection = useActiveSection()
+  const section = fixedSection ?? activeSection
 
   return (
     <div className="min-h-screen">
-      <BackgroundPhoto activeSection={activeSection} photos={sectionPhotos} />
+      <BackgroundPhoto activeSection={section} photos={sectionPhotos} />
       <Nav activeSection={activeSection} />
       <main className="pb-16">{children}</main>
       <Contact contact={profile.contact} />

@@ -11,7 +11,7 @@ export function ArticlePage() {
   const article = profile.articles.find((a) => a.slug === slug)
 
   return (
-    <Layout>
+    <Layout fixedSection="writing">
       <div className="min-h-screen pt-32 pb-24 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="backdrop-blur-md bg-black/40 border border-white/10 rounded-2xl p-8 md:p-12">
