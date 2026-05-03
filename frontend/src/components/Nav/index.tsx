@@ -36,7 +36,7 @@ export function Nav({ activeSection }: Props) {
             return (
               <a
                 key={link.href}
-                href={onHome ? link.href : `/${link.href}`}
+                href={onHome ? link.href : `${import.meta.env.BASE_URL}${link.href}`}
                 className="relative text-sm transition-colors pb-0.5"
                 style={{ color: isActive ? 'white' : 'rgba(255,255,255,0.5)' }}
               >
