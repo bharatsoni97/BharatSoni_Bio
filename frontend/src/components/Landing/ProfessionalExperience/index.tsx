@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import type { WorkEntry } from '@/types/profile'
 
 interface Props {
@@ -16,14 +17,32 @@ export function ProfessionalExperience({ experience }: Props) {
           transition={{ duration: 0.7 }}
           className="backdrop-blur-md bg-black/40 border border-white/10 rounded-2xl p-8 md:p-12"
         >
-          <h2 className="text-2xl font-semibold text-white mb-10">Experience</h2>
+          <div className="flex items-end justify-between mb-10">
+            <h2 className="text-2xl font-semibold text-white">Experience</h2>
+            <Link
+              to="/work"
+              className="text-sm text-blue-400 hover:text-blue-300 transition-colors"
+            >
+              View Project Book →
+            </Link>
+          </div>
           <div className="relative pl-6 border-l border-white/20 space-y-10">
             {experience.map((entry, i) => (
               <div key={i} className="relative">
                 <div className="absolute -left-[1.625rem] top-1.5 w-3 h-3 rounded-full bg-blue-400 border-2 border-black/40" />
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-1 mb-3">
                   <div>
-                    <h3 className="text-white font-semibold text-lg">{entry.company}</h3>
+                    {entry.workId ? (
+                      <Link
+                        to={`/work#${entry.workId}`}
+                        className="text-white font-semibold text-lg hover:text-blue-300 transition-colors inline-flex items-center gap-1.5 group"
+                      >
+                        {entry.company}
+                        <span className="text-white/20 text-xs group-hover:text-blue-400 transition-colors">↗</span>
+                      </Link>
+                    ) : (
+                      <h3 className="text-white font-semibold text-lg">{entry.company}</h3>
+                    )}
                     <p className="text-blue-400 text-sm font-medium">{entry.role}</p>
                   </div>
                   <div className="text-right text-sm text-white/50">

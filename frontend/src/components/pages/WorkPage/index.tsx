@@ -2,7 +2,7 @@ import { Layout } from '@/components/Layout'
 import { profile } from '@/data/profile'
 
 export function WorkPage() {
-  const sorted = [...profile.engagements].sort((a, b) => Number(b.year) - Number(a.year))
+  const sorted = [...profile.engagements].sort((a, b) => parseInt(b.year) - parseInt(a.year))
 
   return (
     <Layout fixedSection="work">
@@ -16,7 +16,7 @@ export function WorkPage() {
             </p>
             <div className="space-y-6">
               {sorted.map((eng, i) => (
-                <div key={i} className="rounded-xl border border-white/10 bg-white/5 p-6">
+                <div key={i} id={eng.id} className="rounded-xl border border-white/10 bg-white/5 p-6">
                   <div className="flex items-start justify-between gap-4 mb-3">
                     <div>
                       <span className="text-xs font-semibold text-blue-400 border border-blue-400/30 rounded-full px-2.5 py-0.5 bg-blue-400/10">

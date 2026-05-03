@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import type { CompetitionEntry } from '@/types/profile'
 
 interface Props {
@@ -25,7 +26,17 @@ export function CaseCompetitions({ competitions }: Props) {
               >
                 <div className="flex items-start justify-between gap-4">
                   <div>
-                    <h3 className="text-white font-semibold">{entry.name}</h3>
+                    {entry.workId ? (
+                      <Link
+                        to={`/work#${entry.workId}`}
+                        className="text-white font-semibold hover:text-blue-300 transition-colors inline-flex items-center gap-1.5 group"
+                      >
+                        {entry.name}
+                        <span className="text-white/20 text-xs group-hover:text-blue-400 transition-colors">↗</span>
+                      </Link>
+                    ) : (
+                      <h3 className="text-white font-semibold">{entry.name}</h3>
+                    )}
                     <p className="text-white/50 text-sm">
                       {entry.organizer} · {entry.year}
                     </p>

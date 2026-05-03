@@ -18,6 +18,7 @@ export interface WorkEntry {
   years: string
   location: string
   bullets: string[]
+  workId?: string
 }
 
 export interface CompetitionEntry {
@@ -26,6 +27,7 @@ export interface CompetitionEntry {
   year: string
   result: string
   description: string
+  workId?: string
 }
 
 export interface LeadershipEntry {
@@ -54,6 +56,7 @@ export interface HobbyEntry {
 }
 
 export interface EngagementEntry {
+  id: string
   sector: string
   client: string
   scope: string
