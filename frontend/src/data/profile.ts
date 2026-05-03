@@ -35,11 +35,12 @@ export const profile: Profile = {
     },
   ],
 
-  bio: `I'm an economic and strategic advisor with a background in financial and business economics and five years of experience applying that training across government and consulting. I've worked inside a provincial ministry designing policy programs for a $2.6B budget, and at KPMG advising firms across financial services, energy, utilities, and mining on how economic forces shape operations and strategy.
-
-My work sits at the intersection of macroeconomic analysis and operational reality — where the insight only matters if it changes the decision. I'm building Econometrics.AI to extend that practice: giving businesses direct access to the quantitative economic analysis that typically lives inside advisory engagements.
-
-I hold three degrees from Schulich and York University, including an accelerated MBA in progress, and have twice represented York at the Bank of Canada Governor's Challenge.`,
+  bio: `I'm an Economic Advisory professional who believes the insight only matters if it changes what happens next.
+  Over five years, I've helped organizations across financial services, energy, utilities, mining, and the public sector translate macroeconomic conditions into decisions they can act on — at the executive table, inside operating models, and through the transactions that reshape them. My work spans the full advisory lifecycle: designing policy programs for a $2.6B provincial budget, supporting a $2.3B M&A integration, and building quantitative models that give leaders confidence when the stakes are high and the environment is moving fast.
+  I lead with a thesis-driven, model-backed approach — starting with the economic forces shaping an industry, then working inward to where they land at the process and strategy level. That's the gap I've spent my career closing: between what the macro environment is signalling and what a business should actually do about it.
+  I'm building toward a leadership role at the intersection of economics and enterprise strategy — helping Canadian organizations navigate rate cycles, trade disruption, and structural transformation before those forces catch up to them. I believe the next generation of advisory belongs to those who move fluently between macroeconomic analysis and organizational action. That's the kind of advisor I'm becoming.
+  My academic foundation includes three degrees from Schulich and York University — a Specialized Honours B.A. in Financial and Business Economics, a Master of Management from Schulich, and an MBA in Finance & Strategic Management currently in progress. I've twice represented York at the Bank of Canada Governor's Challenge, presenting monetary policy recommendations directly to the Governing Council. That experience — turning complex economic data into a recommendation a decision-maker can act on — shaped how I approach every engagement since.
+  Outside of work, you'll find me at the gym, on a track somewhere, or walking Tobin across the city.`,
 
   education: [
     {
