@@ -18,7 +18,7 @@ export function Layout({ children, fixedSection }: Props) {
     <div className="min-h-screen">
       <BackgroundPhoto activeSection={section} photos={sectionPhotos} />
       <Nav activeSection={activeSection} />
-      <main className="pb-16">{children}</main>
+      <main className="pb-16 lg:pl-52">{children}</main>
       <Contact contact={profile.contact} />
     </div>
   )
